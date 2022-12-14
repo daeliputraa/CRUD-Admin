@@ -1,0 +1,76 @@
+/* Navbar */
+.navbar {
+  background-color: #1e1e2c;
+}
+
+.navbar h5 {
+  color: #eaeaea;
+}
+
+/* side bar */
+#sidebar a {
+  color: white;
+}
+
+#sidebar i {
+  margin-right: 10px;
+}
+
+#sidebar ul li a:hover {
+  background-color: #4b49ac;
+  color: white;
+}
+
+#sidebar .side-bar {
+  background-color: #1e1e2c;
+}
+
+#sidebar .main-content {
+  background-color: whitesmoke;
+}
+
+/* Main bar */
+#mainbar .display-4 {
+  font-weight: bold;
+}
+
+#mainbar .icon {
+  position: absolute;
+  z-index: 0;
+  right: 4px;
+  font-size: 90px;
+  opacity: 0.4;
+}
+
+#mainbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#mainbar .card-mahasiswa {
+  background-color: #1bcfb4;
+}
+
+#mainbar .card-dosen {
+  background-color: #4bcbeb;
+}
+
+#mainbar .card-pegawai {
+  background-color: #f39496;
+}
+
+#mainbar .btn-detail {
+  background-color: #1e1e2c;
+}
+
+#mainbar .btn-edit {
+  background-color: #1bcfb4;
+}
+
+#mainbar .btn-hapus {
+  background-color: #ab2e3c;
+}
+
+#mainbar button {
+  border: none;
+}

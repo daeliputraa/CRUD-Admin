@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #1e1e2c, #ab2e3c, #4bcbeb, #f39496);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  1000% {
+    background-position: 0 50%;
+  }
+}
+
+.container {
+  background-color: #1e1e2c;
+  margin-top: 100px;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  opacity: 0.9;
+}
+
+.container h1 {
+  font-family: "Poppins", sans-serif;
+  color: #ab2e3c;
+}
+
+.container span {
+  color: white;
+}
+
+.container label {
+  border: none;
+}
